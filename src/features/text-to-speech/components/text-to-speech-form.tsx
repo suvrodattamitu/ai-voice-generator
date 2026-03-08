@@ -1,6 +1,6 @@
 "use client";
 import {z} from "zod";
-import { formOptions, FormOptions } from "@tanstack/react-form";
+import { formOptions } from "@tanstack/react-form";
 import { useAppForm } from "@/hooks/use-app-form";
 
 const ttsFormSchema = z.object({
